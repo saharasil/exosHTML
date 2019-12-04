@@ -1,0 +1,22 @@
+/*Feuille de style CSS pour 02_balises.html*/
+body
+{
+    background-color: lightcyan;
+    color:rgb(18, 19, 20);
+    border:2px solid orange;
+}
+
+header {
+    background-color: #900c3f;
+    color:white;
+    height:90px;
+
+}
+nav{
+    background-color: navy;
+    color:orangered;
+}
+article{
+    background-color: whitesmoke;
+    height: 80px;
+}
