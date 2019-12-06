@@ -1,0 +1,21 @@
+/*feuille de style pour la page sélecteur*/
+body{
+    background-color: papayawhip;
+    color: #0c9463
+}
+/*les classe pour la page*/
+.zone1{
+background-color: rebeccapurple;
+height: 90px;
+}
+.zone2{
+background-color: sienna;
+height: 70px;
+color: #000000
+}
+/* des styles pour des ID */
+#zone3{
+    background-color: springgreen;
+    height: 50px;
+    color : #110133
+}

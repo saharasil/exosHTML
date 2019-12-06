@@ -1,0 +1,15 @@
+/* feuille de style pouer la page avec des images  */
+body{
+    background-color:#fa877f;
+
+}
+h2{
+    color: #472b62;
+}
+h3{
+    color: #7c0a02;
+}
+img{
+    border: 10px
+    solid black;
+}

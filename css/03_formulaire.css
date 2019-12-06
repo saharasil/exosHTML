@@ -4,15 +4,15 @@
  }
     
     /* ici les styles pour le formulaire */
-    fieldset {
+ fieldset {
        border: 2px solide #621055;
     }
-    legend {
+legend {
       background-color:#ffa372;
       color: #010038;
 
     }
-       label {
+label {
           color : #010038;
        }
     
