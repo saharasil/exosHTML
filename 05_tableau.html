@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mon premier tableau</title>
+    <link rel="stylesheet" href="css/05_tableau.css">
+    
+</head>
+<body>
+    <h1>Un tableau, pour les données "tabulaires"</h1>
+    <!--ouverture du tableau-->
+    <table>
+        <!-- titre du tableau (la légende) : CAPTION (les cellules sont fusionnées) -->
+        <caption>Ventes de la semaine</caption> 
+        <!-- rangée d'en-tête du tableau : THEAD et TR -->
+       <thead>
+           <tr>
+               <!-- cellules d'en-tête : TH table head  -->
+               <th>Jour</th>
+               <th>Smartphone</th>
+               <th>Tablettes</th>
+               <th>Ordinateurs portables</th>
+           </tr>
+       </thead>
+       <!-- Le bas ou la fin du tableau : TFOOT les normes du WC mettent la balise tfoot avant la balise -->
+       <tfoot>
+           <tr>
+               <td>Total</td>
+               <td>57</td>
+               <td>39</td>
+               <td>42</td>
+           </tr>
+       </tfoot>
+        <!-- le corps du tableau : TBODY  -->
+        <tbody>
+            <!-- tr*5>td*4 : pour faire notre tableau de 5 rangées et 4 colonnes -->
+            <!-- rangée de tableau : TR, table row -->
+            <tr>
+                <!-- cellules de tableau : TD, table data -->
+                <td>Lundi</td>
+                <td>10</td>
+                <td>6</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Mardi</td>
+                <td>11</td>
+                <td>9</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Mercredi</td>
+                <td>4</td>
+                <td>12</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>jeudi</td>
+                <td>18</td>
+                <td>6</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>vendredi</td>
+                <td>14</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+</body>
+</html>

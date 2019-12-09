@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exo 03</title>
+    <style>
+            body{
+                background-color: papayawhip;
+            }
+            abbr{ 
+                background-color:#6c5b7b;
+                /* font-weight : épaisseur à caractére */
+                font-weight: bolder;
+            }
+            code{ 
+                background-color:#b21f66;
+                /* font-weight : épaisseur à caractére */
+                font-weight: bolder;
+                color: seashell;
+            }
+        </style>
+</head>
+
+<body>
+    <h1>Exo 03</h1>
+    <ol>
+        <!-- L'élément ABBR pour dire qu'il y a une abbréviation -->
+        <li><p> <abbr>HTML</abbr> : HyperText Markup Language</p>
+
+            <ul>
+               <li> c'est la structure de la page html ou on organise les titres, paragraphe, listes, tableaux...</li>
+
+            </ul>
+               
+
+        </li>
+
+        <li><p><abbr>CSS</abbr>: cascading Style Sheet</p>
+            <ul>
+                <li>c'est la mise en forme, le designe, l'apparence (les couleurs, la tailles, les positionnement sur la page)</li>
+            </ul>
+
+            </li>
+        <li><p>Terminologie</p>
+            <ul>
+                <li>Elements : ils définissent la structure et le contenu des objets au sein d'une page. Les pus couramment utilisés sont les ,niveaux de titre (h1à h6) et les paragraphes (avec la balises p)
+                </li>
+                <li>Balises : elles sont reconnaissables car elles sont encadrées d'un cheveron ouvrant et d'un cheveron fermant. L'ouverture d'une balise détermine le début d'un élément.<br>
+                Sa fermeture détermine sa fin. Le contenu aui est insére entre une balise ouvrante et fermante représente le contenu de cet élément. Par exemple, un lienhtml sera encadré d'une balise A ouvrante et fermante. Ilexiste eussi des balises auto-fermante(aussi dites orpholine).
+            </li>
+                <li>Attributs : ce sont des propriétés utilisées pour fournir des informations complémentaires sur un élément. les attributs les plus communs incluent l'attribut ID (qui identifie un élement),  l'attribut CLASS (qui classifie un élément ), l'attribut SRC(qui spécifie la source d'un contenu qui peut être imbriqué) et l'attribut HREF (qui contient un lien hypertexte vers une ressource liée). les attributs sont définis au sein de la balise ouvrante aprés le nom de l'élément:<br>
+                 <code>&lt;a href="http://github.com/Ma6Tvacoder-Docs/partages">lien&lt;/a></code>
+                </li>
+            </ul>
+            
+        </li>
+
+        <li><p>Structure</p>
+            <ul>
+                <li>Un fichier <abbr>HTML</abbr> eest un fichier de texte brut (non mis en forme) enregistré avec l'extension _.html_.</li>
+                <li>Tous les fichiers html ont une structure de base qui implique de décaler les éléments suivants : 
+                    &lt;!DOCTYPE html> <br>
+                    &lt;html><br>
+                    &lt;head><br>
+                    &lt;title>&lt;/title><br>
+                    &lt;/head><br>
+                    &lt;body><br>
+                    &lt;/body><br>
+                    &lt;/html><br>
+                </li>
+            
+                <li>
+                    <strong>!DOCTYPE html</strong> informe le navigateur web que le document est de type <abbr>html</abbr> et qu'il s'agit (ici) de la derniére version de la language, le <abbr>HTML 5</abbr>. En HTML4.01, la précédente version avant le 5, cette balise s'écrivait &lt;!DOCTYPE HTML PUBLIC"-//W3C//DTD DTML4.01 Frameset//EN"<br>
+                    "http://www.w3.org/TR/html4/Frameset">
+                </li>
+            
+                <li>à l'intérieur de l'élément <em>html</em>la balise <strong>head</strong> identifie le début du document et inclut les métadonnées(informations sur la page). Le contenu à l'intérieur de la balise head n'est pas affiché par le navigateur puisq'il donne des informations sur la page(liens vers des fivchiers externes, utilisation du language html, titre de la page).</li>
+                <li>tout ce qui s'affichera dans le navigateur est inclus à l'intérieur de la balise<strong>body</strong></li>
+                <li>quand un élément est placé au sein d'un autre (ou imbriqué) il est important d'<strong>indenter</strong> cet élément en le décalant vers la droite à l'aide de la tabulation pour conserver une structure bien organisée et lisible pour tout le monde.</li>
+                <li>les balises en paires comportent une balise ouvrante et une balise fermante indiquant pour chaqune le début et la fin de l'élément correspondant.</li>
+                <li>les balises auto-fermantes correspondent à des éléments pinctuels dans une page html, pas besion de fournir une information de fin (insérer une image ou un lien par exemple). les plus courantes:<br>
+                    &lt;br/><br> &lt;img/> <br> &lt;met/> <br> &lt;input/> <br> &lt;hr/> <br> &lt;link/>
+
+                </li>
+            </ul>
+
+        </li>
+        <li>
+            <p>Le <abbr>W3C</abbr> - La validation du code </p>
+            <p>Le <strong>World Wide Web Consortium</strong>, abérgé par le sigle <strong><abbr>W3C</abbr></strong>, est un organisme de standardisation à but non lucratif, fondé en octobre 1994 chargé de promouvoir la comptabilité des technologies du <u> World Wide Web </u > telles que <u ><abbr>HTML5</abbr></u >,  <u><abbr>HTML</abbr></u>,  <u><abbr>CSS</abbr></u>,  <u><abbr>PNG</abbr></u>, <u><abbr>SVG</abbr></u >... Le <u> <abbr>W3C</abbr> ou World Wide Web Consortium</u >, est une organisation international qui développe des <u   >standards</u  > pour le Web afin que les gens puissent communiquer efficacement à tracers Internet, autour de formats ouverts garantissant une meilleure intéropérabilité(c'est-à-dire une meilleure compréhension des systémes hétérogènes à travers des données et langages standadisés). Le consortium existe depuis 1994 et est dirigé par l'inbenteur du Web, Til Berners-Lee. Il est composé d'une équipe fixe et des menmbres (dont plusieurs centaines d'entreprises partenaires). Les menmbres déléguent des ingénieurs au sein du W3C et participent ainsi à l'éléboration des spécifiacations techniques pour les tchnologies du Web. de nombreux membres actifs font partie des équipes de développement des navigateurs (Microsoft, Mozilla, Apple, Opera, Google? etc). </p>
+        </li>
+        
+        
+
+    </ol>
+
+    <!--ol>li*5>ul>li*3-->
+    <h2>Des listes non ordonnées imbriquées dans une liste ordonnées de 5 éléments de liste</h2>
+    <ol>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+    </ol>
+    
+    
+    
+</body>
+</html>
