@@ -1,12 +1,23 @@
+
+/* feuille de style pour la page avec des dégradé de couleur en css */
 body {
     background-color: #fbe3b9;
 }
-.rectangle {
-    border: 2px solid #ffa259;
+.carre {
+    /* une couleur en dégradé pour la classe. rectangle, un dégradé qui démarre avec la 1ére couleur et finit avec la 2nd couleur, par défaut, de haut en bas */
+    background: linear-gradient(to left,#61c0bf ,#fae3d9);
     /* largeur */
     width: 45em;
     /* hauteur */
     height: 45em;
     /* pas de marge (valeur 0) en haut et en bas et la valeur auto laisse le navigateur centrer l'élément */
+    margin: 0 auto;
+}
+.cercle {
+    background: linear-gradient(to left,#f67280 ,#f8b195);
+ /* la propriété border-radius permet d'arrondir plus ou moins les angles */
+    border-radius: 50% ;
+    width: 45em;
+    height: 45em;
     margin: 0 auto;
 }
