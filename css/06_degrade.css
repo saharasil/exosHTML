@@ -1,0 +1,12 @@
+body {
+    background-color: #fbe3b9;
+}
+.rectangle {
+    border: 1px solid #ffa259;
+    /* largeur */
+    width: 45em;
+    /* hauteur */
+    height: 45em;
+    /* pas de marge (valeur 0) en haut et en bas et la valeur auto laisse le navigateur centrer l'élément */
+    margin: 0 auto;
+}
