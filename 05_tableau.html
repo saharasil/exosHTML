@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mon premier tableau</title>
-    <link rel="stylesheet" href="css/05_tableau.css">
-    
+    <link rel="stylesheet" href="css/05_tableau.css">   
 </head>
 <body>
     <h1>Un tableau, pour les données "tabulaires"</h1>
@@ -24,15 +23,6 @@
                <th>Ordinateurs portables</th>
            </tr>
        </thead>
-       <!-- Le bas ou la fin du tableau : TFOOT les normes du WC mettent la balise tfoot avant la balise -->
-       <tfoot>
-           <tr>
-               <td>Total</td>
-               <td>57</td>
-               <td>39</td>
-               <td>42</td>
-           </tr>
-       </tfoot>
         <!-- le corps du tableau : TBODY  -->
         <tbody>
             <!-- tr*5>td*4 : pour faire notre tableau de 5 rangées et 4 colonnes -->
@@ -69,7 +59,14 @@
                 <td>7</td>
             </tr>
         </tbody>
-
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>57</td>
+                <td>39</td>
+                <td>42</td>
+            </tr>
+        </tfoot>
 
     </table>
 </body>

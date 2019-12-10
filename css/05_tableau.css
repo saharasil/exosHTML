@@ -1,5 +1,61 @@
 /*feuille de style pour la page de premier tableau*/
-body{
-    background-color: #e08f62;
-    
+
+/*l'étoile au astérisque sélectionne tous les éléments de ma page html*/
+/*font-family nous permet de définir la type utilisée sur la page : les typos se présentent dans l'ordre souhaité*/
+/*lorsque le nom de la typo est constitué de plusieurs termes on doit l'encadrer d'apostrophe ou de "quotes"*/
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+} 
+
+body {
+    background-color: #ffe3ed;
+    /* largeur de la page 50% de l taille de l'écran du navigateur */
+    width: 50%;
+    /* margin: la marge extérieur de l'élément avec une gestion automatique des marges, pour que le contenu de body soit centré dans la fenêtre*/
+    margin: auto;
+}
+h1 {
+   text-align:center;
+}
+/* les dtyles pour le tableau */
+caption {
+    background-color: darksalmon;
+    border: 3px solid #6e2142 ; 
+    padding: 10px;
+    border-collapse: collapse; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+table {
+    /* la bordure extérieur de tableua */
+    /* BORDER : 3 valeurs : épaisseur, type de filet, couleur */
+    border: 3px solid #6e2142;
+    /* par défaut la bordure contient 2 traits, pour que le trait soit unique on utilise la propriété"collapse" */
+    border-collapse: collapse ;
+     /* la largeur de tableau par rapport à son contenu donc ici body */
+    width: 90%;
+    background-color: darksalmon;
+}
+thead, tfoot {
+background-color: #be7575;
+border: 1px solid #ffbbb4
+}
+tbody {
+    border: 3px double #943855;
+}
+th {
+    border : 2px double #943855;
+    /* la marge intérieur de l'élément: padding */
+    padding: 10px;
+    width: 25%
+}
+td {
+    border : 1px dotted #943855;
+    text-align :center;
+    padding : 5px
+}
+/*td:first-chid le 1er td pour aligner à gauche le texte dans la première cellule de chaque rangée */
+td:first-child {
+text-align:left;    
+background-color:#be7575 ;
 }
