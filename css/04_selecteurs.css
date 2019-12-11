@@ -1,26 +1,22 @@
 /*feuille de style pour la page sélecteur*/
 body{
     background-color: papayawhip;
-    color: #0c9463;
+    color: #46185f;
     /* traille de la police ou de la typo ou de la fonte (et pas de l'écriture) */
     font-size: 18px;
 }
 /*les classe pour la page*/
-.zone1{
-background-color: rebeccapurple;
-/* height hauteur du container */
-height: 90px;
-}
+
 /* des propriétés pour la section et pour les différents paragraphe de la section  */
 section {
-    background-color: darkkhaki;
+    background-color:  #ff9d76;
     width: 50%;
     padding: 5px;
-    border:2px solid #7e0cf5;
+    border:2px solid #9656a1;
     margin-bottom: 10px;
 }
 section p{
-    color: deeppink;
+    color: #3f4d71;
 }
 section p:first-child {
     /* le premier p de la section sera firebrick et en gra; premier enfant d'un élément */
@@ -31,30 +27,59 @@ section p:last-child {
     /* le dernier p de chaque section aura un fond goldenrod; dernier enfant d'un élément */
     background-color: goldenrod;
 }
+
 section p:nth-child(3), p:nth-child(6) {
     /* le 3éme et le 6éme p de chaque section seront en majuscule ; le énième d'un élément */
     text-transform: uppercase;
 }
+
 section p:nth-child(even) {
     /* tout les p pair   */
     background-color:#8bbabb;
 }
+
 section p:nth-child(odd) {
     /* tout les p impair   */
     background-color:lightgreen;
 }
+
 section p:nth-child(5), p:nth-child(9) {
     /* le 5éme et le 9éme p de chaque section auront la 1ére lettre du mot en majuscule ; le énième d'un élément */
     text-transform: capitalize;
     height: 50px;
-.zone2{
-background-color: sienna;
-height: 70px;
-color: #000000
 }
-/* des styles pour des ID */
+
+.zone1, .zone2 {
+    /* height hauteur du container */
+    height: 80px;
+}
+
+.zone1 {
+    background-color: rebeccapurple;
+    
+}
+
+.zone2 {
+background-color: sienna;
+
+}
+
+
 #zone3 {
+    /* des styles pour des ID */
+    /* ID donc avant son nom je mets # */
     background-color: springgreen;
     height: 50px;
     color : #110133
 }
+
+#zone3:before {
+    /* on rajoute du contenu avant l'ID zone 3 */
+    content: "Rajouté avant la zone 3";
+}
+
+#zone3:after {
+    /* on rajoute du contenu après l'ID zone 3 */
+    content: "rajouté après la zone 3.";
+}
+
