@@ -1,20 +1,59 @@
 /*feuille de style pour la page sélecteur*/
 body{
     background-color: papayawhip;
-    color: #0c9463
+    color: #0c9463;
+    /* traille de la police ou de la typo ou de la fonte (et pas de l'écriture) */
+    font-size: 18px;
 }
 /*les classe pour la page*/
 .zone1{
 background-color: rebeccapurple;
+/* height hauteur du container */
 height: 90px;
 }
+/* des propriétés pour la section et pour les différents paragraphe de la section  */
+section {
+    background-color: darkkhaki;
+    width: 50%;
+    padding: 5px;
+    border:2px solid #7e0cf5;
+    margin-bottom: 10px;
+}
+section p{
+    color: deeppink;
+}
+section p:first-child {
+    /* le premier p de la section sera firebrick et en gra; premier enfant d'un élément */
+    color: firebrick;
+    font-weight: bolder ;
+}
+section p:last-child {
+    /* le dernier p de chaque section aura un fond goldenrod; dernier enfant d'un élément */
+    background-color: goldenrod;
+}
+section p:nth-child(3), p:nth-child(6) {
+    /* le 3éme et le 6éme p de chaque section seront en majuscule ; le énième d'un élément */
+    text-transform: uppercase;
+}
+section p:nth-child(even) {
+    /* tout les p pair   */
+    background-color:#8bbabb;
+}
+section p:nth-child(odd) {
+    /* tout les p impair   */
+    background-color:lightgreen;
+}
+section p:nth-child(5), p:nth-child(9) {
+    /* le 5éme et le 9éme p de chaque section auront la 1ére lettre du mot en majuscule ; le énième d'un élément */
+    text-transform: capitalize;
+    height: 50px;
 .zone2{
 background-color: sienna;
 height: 70px;
 color: #000000
 }
 /* des styles pour des ID */
-#zone3{
+#zone3 {
     background-color: springgreen;
     height: 50px;
     color : #110133
