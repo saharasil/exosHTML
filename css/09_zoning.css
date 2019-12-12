@@ -1,0 +1,60 @@
+/* feuille de style pour le deuxième zoning  */
+body {
+    background: linear-gradient(to right, #e6b2c6, #d6e5fa);
+    font-size: 25px;
+    color: #151965;
+}
+
+#contenu  {
+    width: 80%;
+    border: 5px solid white;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #dedef0;
+    height: 100px;
+}
+
+nav {
+    background-color: #ffad87;
+    height: 100px;
+}
+
+section {
+    background-color: #fa877f;
+    height: 500px;
+}
+
+footer {
+    background-color: #bd574e;
+    height: 100px;
+}
+
+.clear {
+    clear: both;
+}
+
+.a, .b, .c, .d {
+width: 30%;
+height: 25px;
+border: 5px solid whit;
+float: left;
+}
+
+.a {
+    background-color: #f1d4d4;
+   
+}
+
+.b {
+    background-color: #eadea6;
+}
+
+.c {
+    background-color: #deb881;
+}
+
+.d {
+    background-color: #f6cd90;
+}

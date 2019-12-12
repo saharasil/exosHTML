@@ -1,0 +1,39 @@
+/* Le style pour le premier zoning  */
+body {
+    width: 80%;
+    background-color: #d6e5fa;
+    border: 1px solid #3a3535;
+    margin: 10px auto;
+    color: #32407b;
+}
+#contenu {
+    background-color: #e6b2c6;
+    border: 2px solid #561f55;
+    margin: 5px;
+}
+header, footer {
+    height: 120px;
+    border: 1px solid #400082;
+    background-color: #d77fa1;
+    text-align: center;
+    padding-top: 10px;
+}
+nav {
+    height: 60;
+    background-color: #fef6fb;
+    padding-left: 40px;
+}
+section {
+    border: 20px solid #fbdff0;
+    height: 400px;
+    text-align: center;
+
+}
+li {
+    float: left;
+    width: 25%;
+}
+
+.clear { 
+    clear: both;
+}
