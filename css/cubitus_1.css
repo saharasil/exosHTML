@@ -3,15 +3,28 @@
 body {
     background-color: #fff1e9;
 }
-.cubitus {
-    width: 150px;
-    background-color: #35477d;
+
+.c1, .c2 {
     width: 150px;
     height: 150px;
-    border: 5px solid #f9f6f7;
+    margin: 1px;
+    float: left;
+    border: 1px solid #000000;
+    border-radius: 30%  ;
+    text-align: center;
+    color: darkgray;
+    
 }
 
+.c1 {
+    background-color:  #35477d;;
+}
 
+.c2 {
+    background-color: darkblue;
+}
 
-
+.clear {
+    clear: both;
+}
 
