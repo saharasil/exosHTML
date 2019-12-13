@@ -29,11 +29,11 @@ section {
     text-align: center;
 
 }
-li {
-    float: left;
-    width: 25%;
+
+.inline {
+    display: inline;
 }
 
-.clear { 
-    clear: both;
+li {
+    width: 30% auto;
 }

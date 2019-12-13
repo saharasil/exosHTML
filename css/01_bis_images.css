@@ -13,3 +13,6 @@ img{
     border: 10px
     solid black;
 }
+.block {
+    display: block;
+}
