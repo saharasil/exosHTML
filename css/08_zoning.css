@@ -6,11 +6,13 @@ body {
     margin: 10px auto;
     color: #32407b;
 }
+
 #contenu {
     background-color: #e6b2c6;
     border: 2px solid #561f55;
     margin: 5px;
 }
+
 header, footer {
     height: 120px;
     border: 1px solid #400082;
@@ -18,11 +20,58 @@ header, footer {
     text-align: center;
     padding-top: 10px;
 }
+ 
+/* les styles pour la navigation dans l'élément nav  */
 nav {
-    height: 60;
+
+    height: 60px;
     background-color: #fef6fb;
-    padding-left: 40px;
+    /* padding-left: 40px; */
+
 }
+nav ul {
+     /* pour être certain de ne pas avoir de puces dans cette ul  */
+    list-style-type: none;
+    /* background-color: #f6da63; */
+}
+ /* on peut faire aussi autrement  
+ .inline {
+    display: inline;
+} 
+*/
+
+nav li {
+    display: inline;
+} 
+
+nav li a {
+    background-color: darksalmon;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+/* le lien pas encore visité*/
+ /* nav li a:link {
+    color:  #1d4d4f ;
+}  */
+
+/* le lien ou clic de la souris, sélectionné*/
+ nav li a:active {
+     background-color: #2d132c;
+} 
+
+/* le lien visité*/
+  nav li a:visited {
+    background-color: firebrick;
+}  
+
+/* le lien au survol de la souris*/
+ nav li a:hover {
+    color: darkseagreen;
+    background-color: dimgray;
+} 
+
+/* les styles pour la section  */
 section {
     border: 20px solid #fbdff0;
     height: 400px;
@@ -30,10 +79,3 @@ section {
 
 }
 
-.inline {
-    display: inline;
-}
-
-li {
-    width: 30% auto;
-}
