@@ -1,0 +1,23 @@
+body {
+    background-color: #bae8e8;
+}
+.c1, .c2, .c3, .c4 {
+    width: 150px;
+    height: 150px;
+    margin: 1px;
+    float: left;
+    border: 1px solid #000000;
+    border-radius: 30%  ;
+    text-align: center;
+    color: darkgray;
+
+    
+}
+.c0 {
+opacity: 0;
+
+}
+
+.clear {
+    clear: both;
+}
