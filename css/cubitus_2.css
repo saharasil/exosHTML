@@ -13,7 +13,7 @@ body {
 }
 
 .c1 {
-    background-color: #0c9463;
+    background-color: #413c69;
     border-radius: 10%;
     border-bottom-left-radius: 40%;
     border-bottom-right-radius: 30%;
@@ -23,14 +23,14 @@ body {
 }
 
 .c2{
-    background-color: #51eaea;
+    background-color: #6c7b95;
     border-bottom-right-radius: 50%;
     border-top-left-radius: 50%;
    
 }
 
 .c3 {
-    background-color: #6decb9;
+    background-color: #02a8a8;
     width: 150px;
     height: 150px;
     margin: 1px;
@@ -42,7 +42,7 @@ body {
 }
 
 .c4{
-    background-color: #ffbbb4;
+    background-color: #f67280;
     border-radius: 20%;
     border-bottom-left-radius: 40%;
     border-top-right-radius: 40%;
