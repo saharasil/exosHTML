@@ -50,6 +50,9 @@ body {
 
 .c5 {
     background-color: red;
+    border-radius: 20%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
 }
 
 .c0 {
