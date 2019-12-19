@@ -2,7 +2,7 @@ body {
     background-color: #bae8e8;
 }
 
-.c1, .c2, .c4, .c0, .c5 {
+.c1, .c2, .c4, .empty, .c5 {
     width: 150px;
     height: 150px;
     margin: 1px;
@@ -26,8 +26,10 @@ body {
     background-color: #6c7b95;
     border-bottom-right-radius: 50%;
     border-top-left-radius: 50%;
-   
+    /* on peut faire autrement */
+    /* border-radius: 50% 0%  50% 0%; */
 }
+
 
 .c3 {
     background-color: #02a8a8;
@@ -36,7 +38,7 @@ body {
     margin: 1px;
     float: left;
     border: 1px solid #000000;
-    border-radius: 75%  ;
+    border-radius: 75px  ;
     text-align: center;
     color: #000000; 
 }
@@ -55,7 +57,7 @@ body {
     border-bottom-left-radius: 40%;
 }
 
-.c0 {
+.empty {
     opacity: 0;
 }
 
