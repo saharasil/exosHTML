@@ -1,18 +1,23 @@
 /* feuille de style pouer la page avec des images  */
-body{
+
+body {
     background-color:#fa877f;
 
 }
-h2{
+
+h2 {
     color: #472b62;
 }
-h3{
+
+h3 {
     color: #7c0a02;
 }
-img{
+
+img {
     border: 10px
     solid black;
 }
+
 .block {
     display: block;
 }
