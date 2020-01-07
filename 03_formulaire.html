@@ -7,27 +7,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/03_formulaire.css">
 </head>
+
 <body>
     <h1>Mon premier formulaire HTML</h1>
+
     <!--le lien hypertexte qui nous emmène vers uen autre page-->
-    <h2> <a href="exos/02_bis_liens.html" style="color: #594a4e">Ici un lien vers la page avec des liens hypertexte</a> </h2>
+    <h2><a href="exos/02_bis_liens.html" style="color: #594a4e">Ici un lien vers la page avec des liens hypertexte</a></h2>
     <hr>
+
     <!--je déclare le formulaire avec la balise form-->
     <form>
-        <!--les champs du formulaire et leurs étiquettes-->
-
-        <!--label désigne l'étiquette du champs-->
-        <!--required indique que le champs doit être renseigné-->
-        <!-- un ensemble de champ de formulaire -->
-
+        <!-- FIELDSET : un ensemble de champ de formulaire -->
         <fieldset>
             <legend>Nom et Prénom</legend>
+
             <!-- le 1ér champ du form : le nom -->
+            <!--label désigne l'étiquette du champs-->     
             <label for="nom">Nom *</label>
+            
+            <!--INPUT : les champs du formulaire et leurs étiquettes--> 
             <input type="text" name="nom" id="nom" placeholder="Votre nom de famille " required>
+            <!--required indique que le champs doit être renseigné-->
     
             <!-- le 2éme champ du form : le prénom -->
-    
+
             <label for="prenom">Prénom *</label>
             <input type="text" name="prenom" id="prenom" placeholder="Votre prénom " required><br>
              
@@ -36,6 +39,7 @@
         
        <fieldset>
            <legend>Informations de connexion</legend>
+
             <!-- le 3éme champ du form : le pseudo -->
     
             <label for="pseudo">Pseudonyme*</label>
@@ -50,6 +54,7 @@
 
        <fieldset>
            <legend>Email et Photographie</legend>
+
             <!--le 5éme champs du form : email-->
             <label for="email" >Email*</label>
             <input  type="email" name="email" id="email" placeholder="Votre email" required><br>
@@ -58,9 +63,11 @@
             <label for="photo">Photographie*</label>
             <input type="file" name="photo" required><br>
        </fieldset>
-        <br>    
+        <br>  
+
        <fieldset>
            <legend>Destination désiser</legend>
+
             <!--le 7éme champ du form : des cases à cocher -->
             <label for="question">Choisissez votre destination ...*</label>
            <p style="color:#da2d2d">
@@ -71,19 +78,19 @@
        </fieldset>
         <br>
 
-        <!--le 8éme champ du form; une zone de text -->
+            <!--le 8éme champ du form; une zone de text -->
         <label for="commentaire">Avez-vous une précision à apporter, un souhait pour le voyage?</label>
 
-        <!-- rows nombre de ligne, cols nbr de rangées de textarea -->
+            <!-- rows nombre de ligne, cols nbr de rangées de textarea -->
         <textarea style="background-color:#515c88 ;" name="comentaire" rows="5" cols="50"></textarea>
 
-        <!-- pour envoyer le form, un bouton (un btn...) -->
-        <input type="submit" name="inscription" valeur="Envoyer">
+            <!-- pour envoyer le form, un bouton (un btn...) -->
+        <input type="submit" name="inscription" value="Envoyer">
 
-         <!-- pour vider le formulaire -->
-        <input type="reset" name="annuler" valeur="Effacer">
-
+            <!-- pour vider le formulaire -->
+        <input type="reset" name="annuler" value="Effacer">
 
     </form>
+
 </body>
 </html>
