@@ -1,0 +1,36 @@
+/* feuille de style pour la page avec des lien hypertexte  */
+body {
+    background-color: #ffbbbb;
+    font-family:  'Roboto', sans-serif;;
+}
+
+header {
+    height: 100 px;
+    background-color: #e9e2d0;
+}
+
+h1 {
+    text-align: center;
+    
+}
+nav {
+    height:50px ;
+    border: black 1px ;
+}
+
+a {
+    text-align: center;
+}
+
+.haut {
+    position: fixed;
+    top: 90%;
+    left: 95%;
+}
+
+.bas {
+    position: fixed;
+    bottom: 90%;
+    left: 95%;  
+}
+
