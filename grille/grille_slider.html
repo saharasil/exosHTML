@@ -87,30 +87,31 @@
             }
 
             // slider 2
-            var img = 0;
+            var img1 = 0;
             function f(){
-                img += 1; // j'incrémente de 1
-                monImage1.setAttribute("src" , "img/dolomites" + img + ".jpg"); 
+                img1 += 1; // j'incrémente de 1
+                monImage1.setAttribute("src" , "img/dolomites" + img1 + ".jpg"); 
                 //setInterval: permet de lancer une fonction tout les xmillième de seconde
-                if(img == 4){ //nombre total d'image dans mon slider
+                if(img1 == 4){ //nombre total d'image dans mon slider
                     // permet de stopper un setInterval
-                    clearInterval(timer)
+                    // clearInterval(timer)
+                    img1 = 0
                 }
             }
             var timer = window.setInterval('f()', 1000);
 
-            // slider3 
+           
 
-            var diapo = Array("img/dolomites1", "img/dolomites2", "img/dolomites3", "img/dolomites4");
-            function f(){
-                diapo += 1; // j'incrémente de 1
-                monImage2.setAttribute("src" ,  + diapo + ".jpg"); //setInterval: permet de lancer une fonction tout les xmillième de seconde
-                if(img == 4){ //nombre total d'image dans mon slider
-                    // permet de stopper un setInterval
-                    clearInterval(timer)
-                }
-            }
-            var timer = window.setInterval('f()', 1000);
+            // var diapo = Array("img/dolomites1", "img/dolomites2", "img/dolomites3", "img/dolomites4");
+            // function f(){
+            //     diapo += 1; // j'incrémente de 1
+            //     monImage2.setAttribute("src" ,  + diapo + ".jpg"); //setInterval: permet de lancer une fonction tout les xmillième de seconde
+            //     if(img == 4){ //nombre total d'image dans mon slider
+            //         // permet de stopper un setInterval
+            //         clearInterval(timer)
+            //     }
+            // }
+            // var timer1 = window.setInterval('f()', 1000);
 
 
 
