@@ -30,11 +30,28 @@
     </section>
     <section class="row">
         <div class="col-2">
-            <p>1/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cupiditate quas nihil quidem ex porro, id cum, animi incidunt excepturi mollitia impedit corporis voluptates optio rerum quod eveniet ipsa et.</p>
+            <p>4/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cupiditate quas nihil quidem ex porro, id cum, animi incidunt excepturi mollitia impedit corporis voluptates optio rerum quod eveniet ipsa et.</p>
         </div>
         <div class="col-10">
-            <script ></script>
+            <img src='img/dolomites1.jpg';  id="imageSuivente" onMouseOver="tourne_image()">
         </div>
+    </section>
+    <section class="row">
+        <div class="col-2">
+            <p>5/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cupiditate quas nihil quidem ex porro, id cum, animi incidunt excepturi mollitia impedit corporis voluptates optio rerum quod eveniet ipsa et.</p>
+        </div>
+        <div class="col-10">
+            <img src='img/dolomites1.jpg';  id="monImage1" >
+        </div>
+    </section>
+    <section class="row"> 
+        <div class="col-10">
+            <img src='img/dolomites1.jpg';  id="monImage2">
+        </div>
+        <div class="col-2">
+            <p>6/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cupiditate quas nihil quidem ex porro, id cum, animi incidunt excepturi mollitia impedit corporis voluptates optio rerum quod eveniet ipsa et.</p>
+        </div>
+       
     </section>
 
     <footer class="row orange">
@@ -45,7 +62,58 @@
                 <p>2/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eos iusto consectetur porro minus nihil perferendis ipsa quidem neque tempore voluptate labore exercitationem expedita explicabo odit, deleniti blanditiis ratione sit.</p>
         </div>
     </footer>
+    
     <!-- fermeture du conteneur principal  -->
 </div>
-</body>
-</html>
+    <script >
+        // slider 1 
+            function tourne_image(){
+            var img = document.getElementById('imageSuivente').getAttribute('src');
+                
+            switch(img){
+            case 'img/dolomites1.jpg' :
+            document.getElementById('imageSuivente').src ='img/dolomites2.jpg';
+            break;
+
+            case 'img/dolomites2.jpg' :
+            document.getElementById('imageSuivente').src ='img/dolomites3.jpg';
+            break;
+
+            case 'img/dolomites3.jpg' :
+            document.getElementById('imageSuivente').src ='img/dolomites4.jpg';
+            break;
+
+            }
+            }
+
+            // slider 2
+            var img = 0;
+            function f(){
+                img += 1; // j'incrémente de 1
+                monImage1.setAttribute("src" , "img/dolomites" + img + ".jpg"); 
+                //setInterval: permet de lancer une fonction tout les xmillième de seconde
+                if(img == 4){ //nombre total d'image dans mon slider
+                    // permet de stopper un setInterval
+                    clearInterval(timer)
+                }
+            }
+            var timer = window.setInterval('f()', 1000);
+
+            // slider3 
+
+            var diapo = Array("img/dolomites1", "img/dolomites2", "img/dolomites3", "img/dolomites4");
+            function f(){
+                diapo += 1; // j'incrémente de 1
+                monImage2.setAttribute("src" ,  + diapo + ".jpg"); //setInterval: permet de lancer une fonction tout les xmillième de seconde
+                if(img == 4){ //nombre total d'image dans mon slider
+                    // permet de stopper un setInterval
+                    clearInterval(timer)
+                }
+            }
+            var timer = window.setInterval('f()', 1000);
+
+
+
+    </script>   
+    </body>
+    </html> 
